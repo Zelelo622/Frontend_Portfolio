@@ -12,6 +12,12 @@ ul {
   list-style: none;
 }
 
+.btn {
+  color: #fff;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -74,4 +80,38 @@ body {
 
 .header__social-link + .header__social-link {
   margin-left: 30px;
+}
+
+/* bio */
+.bio {
+  padding: 157px 0 255px 0;
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -92px right;
+}
+
+.bio__inner {
+  max-width: 1004px;
+}
+
+.bio__title {
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 34px;
+}
+
+.bio__text {
+  /* max-width: 989px; */
+  font-size: 36px;
+  line-height: 54px;
+  color: #bcbcbc;
+  margin-left: 62px;
+  margin-bottom: 73px;
+}
+
+.bio_btn {
+  font-size: 28px;
+  line-height: 42px;
+  padding: 19px 64px;
+  margin-left: 110px;
 }
