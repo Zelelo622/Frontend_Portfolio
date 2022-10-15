@@ -42,10 +42,18 @@ body {
 .header {
   padding: 45px 0;
 }
+
 .header a {
   font-weight: 500;
   font-size: 30px;
   color: #fff;
+}
+
+.header-link {
+  transition: all 0.2s;
+}
+.header-link:hover {
+  opacity: 0.2;
 }
 
 .header__inner {
